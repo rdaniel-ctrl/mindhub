@@ -1,0 +1,182 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+.contenedor_1{
+    width: 100%;
+    height: 500px;
+}
+body{
+    background-color: blueviolet;
+}
+.contenedor_1 img{
+width: 100%;
+height: 80%;
+}
+header h1{
+color:greenyellow;
+position: absolute;
+padding-right: 1rem;
+}
+.contenedor_1 h2{
+    background-color: violet;
+    color: greenyellow;
+    text-align: center;
+}
+.contenedor_2{
+    display: flex;
+    flex-direction: column;
+}
+.cajas_1{
+    display: flex;
+    background-color: rgb(139, 205, 231);
+    margin: 1rem 2rem;
+    border: blue solid 1px;
+}
+.cajas_1 a{
+    margin: 1rem 2rem ;
+    text-decoration: none;
+}
+.caja_3 h3{
+background-color: yellow;
+border: black solid 1px;
+margin-top: 1rem ;
+margin-left: 1rem;
+}
+.caja_4{
+    margin: 1rem;
+}
+.caja_4 h2{
+background-color: coral;
+margin: 1.5rem 0;
+border: darkblue solid 1px;
+}
+.caja_5{
+    margin: 1rem;
+    border:violet solid 3px;
+    background-color: tomato;
+}
+.caja_5 p{
+    color: white;
+}
+.caja_5 a{
+    text-decoration: none;
+}
+.logo{
+width:120px;
+height: 120px;
+position: absolute;
+top: 250px;
+left: 0px;
+ }
+ /* tablas  */
+ table caption{
+     text-decoration: underline;
+     text-align: left;
+ }
+ table{
+     border-collapse: collapse;
+ }
+ .div-tab{
+    justify-content: space-around;
+    display: flex;
+}
+table,th,td{
+    padding: 1rem;
+    border: 1px solid black;
+}
+/* texto de lineas */
+ .medio{
+     display: flex;
+     flex-direction: column;
+ }
+ .final{
+     display: flex;
+     flex-direction: column;
+ }
+ div.final a{
+    text-decoration: none;
+    color: aliceblue;
+ }
+
+ .espacio{
+     justify-content: space-evenly;
+     display: flex;
+    }
+.linea{
+        text-align: center;
+}
+span{
+    font-weight: 900;
+}
+.til-1{
+    margin-left: 1rem;
+}
+.til-1 h3{
+    margin: 1rem 0;
+}
+.til-1 p{
+    margin-bottom: 1rem;
+}
+.til-2{
+    margin-left: 1rem;
+}
+/* listas */
+.abc{
+    list-style-type: lower-alpha;
+}
+ul{
+    list-style-type: circle;
+}
+ul,ol,li{
+margin: 1rem;
+}
+/* formulario */
+.espaCio_1{
+    display: flex;
+    justify-content: space-evenly;
+}
+form{
+    padding: 1rem;
+}
+fieldset.pp{
+    padding-left: 2rem;
+}
+fieldset.pp input[type="text"]{
+    width: 90%;
+}
+fieldset{
+    border: none;
+}
+input{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+input[type="submit"]{
+    border: 1px solid rgb(46, 175, 89);
+    background-color: blue;
+    color: aliceblue;
+    padding: .5rem;
+}
+fieldset.Espaci_1{
+display: flex;
+flex-direction: row;
+}
+fieldset.pj_2{
+display: flex;
+flex-direction: column;
+}
+label.labEl_2{
+    justify-content: center;
+    display: flex;
+}
+fieldset h2{
+    text-align: center;
+}
+fieldset.pj_2 fieldset{
+    display: flex;
+   justify-content: center;
+    flex-direction: row;
+}
